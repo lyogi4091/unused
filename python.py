@@ -35,6 +35,6 @@ for i in range(1, 12):
     output = "The value is {:03}".format(i)
     print(output)
 print("=============")
-m = 12.3456789
-x = " m equals {:.3f}".format(m)
+m=12.3456789
+x=" m equals {:.3f}".format(m)
 print(x)
