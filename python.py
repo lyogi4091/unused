@@ -1,8 +1,8 @@
-name="Yogesh Kumar"
-PSNumber=40003577
-weight=60.25
-average=49.06
-matches=45
+name = "Yogesh Kumar"
+PSNumber = 40003577
+weight = 60.25
+average = 49.06
+matches = 45
 # approach1
 print(name, PSNumber, weight)
 # approach2 using curl braces
@@ -35,6 +35,6 @@ for i in range(1, 12):
     output = "The value is {:03}".format(i)
     print(output)
 print("=============")
-m=12.3456789
-x=" m equals {:.3f}".format(m)
+m = 12.3456789
+x = " m equals {:.3f}".format(m)
 print(x)
