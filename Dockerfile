@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
         python3.7 \
         python3-pip
 RUN apt-get update
-RUN pip3 install pycodestyle &&\
-#        pip3 install --upgrade pep8 &&\
+RUN pip3 install pep8 &&\
+        pip3 install --upgrade pep8 &&\
         pip3 install autopep8 &&\
         pip3 install --upgrade autopep8
