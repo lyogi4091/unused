@@ -8,4 +8,3 @@ RUN apt-get update
 RUN pip3 install pep8 &&\
         pip3 install --upgrade pep8 &&\
         pip3 install autopep8 &&\
-        pip3 install --upgrade autopep8

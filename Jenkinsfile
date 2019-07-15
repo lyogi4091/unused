@@ -15,7 +15,7 @@ node {
     stage('Output'){
         sh 'sudo docker exec testcontainer_remote ./opt/yogesh'
     }
-    stage('Showcasing the script before autopep8'){
+    stage('Showcasing the script before performing autopep8'){
         sh 'sudo docker exec testcontainer_remote cat /opt/python1.py'
     }
     stage('formatting the code on docker container'){
